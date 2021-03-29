@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SimpleShow Developer Assesment</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+
+  <body>
+    <div id="wrapper">
+      <div id="scenario">
+        <div id="interaction">
+          <img src="img/hanger-background.svg" alt="Background image"/>
+          <img class="instruction-box" src="img/instruction-box.svg" alt="Background image"/>
+          <div id="arm-2-zone" class="drop-zone"></div>
+          <div id="arm-1-zone" class="drop-zone"></div>
+          <div id="leg-1-zone" class="drop-zone"></div>
+          <div id="leg-2-zone" class="drop-zone"></div>
+          <div id="chest-zone" class="drop-zone"></div>
+          <div id="head-zone" class="drop-zone"></div>
+          <div class="arm-1 drag-item">
+            <img src="img/simplemech-arm-1.svg" alt="Left arm piece"/>
+          </div>
+          <div class="arm-2 drag-item">
+            <img src="img/simplemech-arm-2.svg" alt="Right arm piece"/>
+          </div>
+          <div class="leg-1 drag-item">
+            <img src="img/simplemech-leg-1.svg" alt="Left leg piece"/>
+          </div>
+          <div class="leg-2 drag-item">
+            <img src="img/simplemech-leg-2.svg" alt="Right leg piece"/>
+          </div>
+          <div class="chest drag-item">
+            <img src="img/simplemech-chest.svg" alt="Chest piece"/>
+          </div>
+          <div class="head drag-item">
+            <img src="img/simplemech-head.svg" alt="head piece"/>
+          </div>
+        </div>
+
+
+        <div id="start">
+          <div class="overlay-gray"></div>
+          <img src="img/start-overlay-box-large.svg" alt="Start modal image"/>
+          <button><img id="start-button" src="img/start-button.svg" alt="Start button for start overlay"/></button>
+        </div>
+
+        <div id="end" class="hide">
+          <img src="img/feedback-overlay-box-large-2.svg" alt="End modal image"/>
+          <button><img id="close-button" src="img/close-button.svg" alt="Close button for modal"/></button>
+        </div>
+      </div>
+
+      <div id="finish" class="hide">
+        <img src="img/logo-simpleshow.svg" alt="End modal image"/>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
